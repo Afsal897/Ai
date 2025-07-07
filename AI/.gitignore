@@ -1,0 +1,81 @@
+# ==========================
+# General
+# ==========================
+node_modules/
+.env
+*.env
+.DS_Store
+*.log
+*.sqlite3
+*.pyc
+__pycache__/
+dist/
+build/
+coverage/
+.vscode/
+.idea/
+*.db
+*.bak
+*.swp
+*.swo
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================
+# Editor junk
+# ==========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.~undo-tree*
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+Thumbs.db
+ehthumbs.db
+*.orig
+*.rej
+
+# ==========================
+# React + TypeScript Frontend
+# ==========================
+frontend/node_modules/
+frontend/.env.local
+frontend/.next/
+frontend/build/
+frontend/dist/
+frontend/coverage/
+frontend/.turbo/
+frontend/.vite/
+frontend/.cache/
+
+# ==========================
+# Python + FastAPI Backend
+# ==========================
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.env
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/instance/
+backend/.ruff_cache/
+backend/.pdm.toml
+
+resume-data-extractor-7369c-firebase-adminsdk-fbsvc-39f338dcb3.json

@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-multipart
+firebase-admin
+spacy
+pdfplumber
+sentence-transformers
