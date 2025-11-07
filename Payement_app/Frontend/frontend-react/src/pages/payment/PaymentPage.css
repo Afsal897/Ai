@@ -1,0 +1,43 @@
+.icon-button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid white;
+  cursor: pointer;
+  right: 0;
+}
+
+.icon-button-danger {
+  top: 0;
+  background-color: #dc3545; /* Bootstrap danger */
+  border: 1px solid #dc3545;
+  color: white;
+  border-radius: 50%;
+  opacity: 0.75;
+}
+
+.icon-button-danger:hover {
+  opacity: 1;
+}
+
+.icon-button-primary {
+  bottom: 0;
+  background-color: #0d6efd; /* Bootstrap primary */
+  border: 1px solid #0d6efd;
+  color: white;
+}
+
+.read-only-input {
+  pointer-events: none;
+  background-color: transparent;
+}
+
+.droppable-area.drag-over {
+  border-color: #007bff;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+}

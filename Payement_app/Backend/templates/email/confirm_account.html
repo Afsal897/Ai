@@ -1,0 +1,25 @@
+<!--When admin register a user-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Confirm Your Account</title>
+</head>
+
+<body>
+    <p>Hello,</p>
+
+    <p>
+        An account has been created for you by the Foundation administrator. To activate your account,
+        please set your password by clicking the link below. This link will expire in {{ expiry_in_hours  }} hour.
+    </p>
+
+    <p>
+        <a href="{{ target_url }}">Confirm Your Account</a>
+    </p>
+
+    <p>If you did not expect this email or do not recognize the request, you can safely ignore this message.</p>
+
+    <p>Thank you</p>
+</body>
+</html>

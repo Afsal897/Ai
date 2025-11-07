@@ -1,0 +1,513 @@
+{
+  "app": {
+    "header": "連絡先",
+    "footer": "連絡先アプリ。全著作権所有。",
+    "unexpected": "予期しないエラーが発生しました"
+  },
+  "pageNotFound": {
+    "title": "ページが見つかりません",
+    "text": "お探しのページが見つかりませんでした。",
+    "link": {
+      "back": "戻る"
+    }
+  },
+  "errorBoundary": {
+    "title": "問題が発生しました",
+    "text": "お探しのページは存在しないようです。URLをご確認のうえ、再度お試しください。"
+  },
+
+  "sidebar": {
+    "dashboard": "ダッシュボード",
+    "myProfile": "プロフィール",
+    "contactList": "連絡先リスト",
+    "termsAndService": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "userManagement": "ユーザー管理"
+  },
+
+  "dashboard": {
+    "contactsOverView": {
+      "heading": "連絡先の概要",
+      "title": "総連絡先数",
+      "description": "これは現在システムに保存されているすべての連絡先を表します。連絡先管理パネルから追加、編集、削除が可能です。",
+      "link": {
+        "viewAll": "すべての連絡先を見る"
+      }
+    }
+  },
+  "account": {
+    "userProfile": "マイプロフィール",
+    "logout": "ログアウト"
+  },
+  "profile": {
+    "passwordLastUpdated": "パスワードの最終更新日時",
+    "lastLogin": "最終ログイン",
+    "userType": "ユーザータイプ",
+    "normalUser": "メールログイン",
+    "ssoUser": "Googleログイン",
+    "ssoAndNormal": "メールログイン、Googleログイン",
+    "securityInfo": "セキュリティ情報",
+    "link": {
+      "resetPassword": "パスワードをリセット"
+    }
+  },
+  "contacts": {
+    "table": {
+      "columnName": "名前",
+      "columnEmail": "メールアドレス",
+      "columnPhone": "電話番号",
+      "columnActions": "操作",
+      "emptyMessage": "連絡先が見つかりません"
+    },
+    "addContact": {
+      "title": "連絡先を追加"
+    },
+    "editContact": {
+      "title": "連絡先を編集"
+    },
+    "deleteContact": {
+      "title": "連絡先を削除",
+      "text": "本当にこの連絡先を削除しますか"
+    },
+    "viewContact": {
+      "phoneNumber": "電話番号",
+      "emails": "メール",
+      "location": "場所",
+      "address": "住所",
+      "country": "国",
+      "zipCode": "郵便番号",
+      "otherDetails": "その他の詳細",
+      "birthday": "誕生日",
+      "website": "ウェブサイト",
+      "notes": "メモ",
+      "city": "市区町村",
+      "state": "都道府県"
+    }
+  },
+  "privacyPolicy": {
+    "title": "プライバシーポリシー",
+    "lastUpdated": "最終更新：2025年7月28日",
+    "sidebar": {
+      "overview": "概要",
+      "dataWeCollect": "収集する情報",
+      "whyWeCollect": "データ収集の目的",
+      "howWeUse": "情報の利用方法",
+      "yourChoices": "プライバシーの選択肢",
+      "sharing": "共有と開示",
+      "security": "データの安全性",
+      "updates": "ポリシーの更新",
+      "contact": "お問い合わせ"
+    },
+    "sections": {
+      "overview": {
+        "title": "概要",
+        "description": "あなたのプライバシーは重要です。本ポリシーでは、より良いサービス提供のためのデータの収集と使用方法について説明します。当社は、透明性、コントロール、情報の保護に努めます。"
+      },
+      "dataWeCollect": {
+        "title": "収集する情報",
+        "description": "お名前やメールアドレスなどご提供いただく情報、およびご活動から生成される使用状況・端末情報、認可された第三者サービスからの情報を収集します。"
+      },
+      "whyWeCollect": {
+        "title": "データ収集の目的",
+        "description": "サービスの改善、パフォーマンスと信頼性の確保、不正利用の防止、およびユーザーの好みに合わせたパーソナライズ体験の提供に利用します。"
+      },
+      "howWeUse": {
+        "title": "情報の利用方法",
+        "description": "アプリの運営、更新の通知、サポート提供、使用傾向の分析、ユーザー体験の向上のためにデータを利用します。個人情報を販売することはありません。"
+      },
+      "yourChoices": {
+        "title": "プライバシーの選択肢",
+        "description": "アカウント設定でデータを管理できます。いつでも情報の閲覧、更新、削除、ダウンロードを行う権利があります。"
+      },
+      "sharing": {
+        "title": "共有と開示",
+        "description": "ユーザーの同意がある場合、法的義務がある場合、または信頼できるサービス提供者と共有する場合を除き、個人情報を第三者と共有することはありません。"
+      },
+      "security": {
+        "title": "データ保護の方法",
+        "description": "暗号化、アクセス制御、安全なホスティングなどの技術的・組織的対策により、不正アクセスや誤用から個人情報を保護します。"
+      },
+      "updates": {
+        "title": "本ポリシーの変更",
+        "description": "当社は実務内容や法令の変更に応じてポリシーを更新する場合があります。主要な変更についてはアプリやメールで通知し、常に上記「最終更新」を更新します。"
+      },
+      "contact": {
+        "title": "お問い合わせ",
+        "description": "ご質問、ご懸念、データに関するご要望がある場合は、privacy@example.com までご連絡ください。"
+      }
+    }
+  },
+  "terms": {
+    "title": "利用規約",
+    "effectiveDate": "発効日：2025年7月28日",
+    "sidebar": {
+      "introduction": "はじめに",
+      "information": "収集する情報",
+      "usage": "情報の利用方法",
+      "sharing": "情報の共有",
+      "retention": "データの保持",
+      "rights": "ユーザーの権利",
+      "security": "安全性",
+      "changes": "規約の変更",
+      "contact": "お問い合わせ"
+    },
+    "sections": {
+      "introduction": {
+        "title": "はじめに",
+        "content": "当社はプライバシーを尊重し、本規約を通じてその保護に努めます。本ポリシーでは、本アプリ使用時に提供される情報の収集、利用、保護方法について説明します。"
+      },
+      "information": {
+        "title": "収集する情報",
+        "content": "お名前やメールアドレスなど提供された情報、IPアドレス、ブラウザ種類、使用パターンなど自動的に収集される情報を利用します。"
+      },
+      "usage": {
+        "title": "情報の利用方法",
+        "content": "サービスの提供、維持、改善のために情報を使用し、ユーザーとのコミュニケーションを行い、体験のパーソナライズ化を行います。データは使用傾向の理解とパフォーマンス最適化にも役立てられます。"
+      },
+      "sharing": {
+        "title": "情報の共有",
+        "content": "個人データを販売することはありません。サービス運営に協力する第三者提供者と、機密保持契約の下、必要な範囲で共有する場合があります。"
+      },
+      "retention": {
+        "title": "データの保持",
+        "content": "本ポリシーで定める目的を達成するため、または法令に基づき必要とされる期間のみデータを保持し、不要になった情報は安全に削除または匿名化します。"
+      },
+      "rights": {
+        "title": "ユーザーの権利",
+        "content": "情報の閲覧、修正、削除の請求が可能です。処理の制限や異議申し立てもでき、監督当局への苦情申し立ても行えます。"
+      },
+      "security": {
+        "title": "安全性",
+        "content": "不正アクセス、喪失、破壊から個人データを保護するために、適切な技術的・組織的対策を実施しています。"
+      },
+      "changes": {
+        "title": "規約の変更",
+        "content": "本ポリシーは随時更新されることがあります。その際は「発効日」を改訂し、重大な変更がある場合には通知します。"
+      },
+      "contact": {
+        "title": "お問い合わせ",
+        "content": "本ポリシーやデータの取り扱いに関するご質問がある場合は privacy@example.com までご連絡ください。"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "おかえりなさい！",
+      "text": "メールアドレスとパスワードを入力してログインしてください",
+      "orLabel": "または",
+      "noAccountLabel": "アカウントをお持ちではありませんか？",
+      "link": {
+        "signup": "新規登録",
+        "forgotPassword": "パスワードを忘れた？"
+      }
+    },
+    "verifyEmail": {
+      "title": "メールアドレスを認証してください",
+      "forgotPassword": {
+        "text": "あなたのメールアドレスを入力してください。パスワードリセットリンクを送信します。"
+      },
+      "signUp": {
+        "text": "あなたのメールアドレスを入力してください。アカウント設定用リンクを送信します。"
+      },
+      "orLabel": "または",
+      "link": {
+        "back": "ログインに戻る"
+      }
+    },
+    "resetPassword": {
+      "title": "パスワードをリセット",
+      "text": "新しいパスワードを入力して変更してください。",
+      "link": {
+        "back": "戻る"
+      }
+    },
+    "signup": {
+      "title": "アカウントを作成",
+      "text": "アカウント作成まであと少しです。設定を完了しましょう。",
+      "alreadyAMember": "すでにメンバーですか？",
+      "link": {
+        "signin": "サインイン"
+      }
+    }
+  },
+  "toasts": {
+    "passwordUpdated": {
+      "title": "パスワードが更新されました",
+      "text": "パスワードが正常に更新されました！"
+    }
+  },
+  "successCard": {
+    "title": "メール送信に成功しました",
+    "verifyEmailSuccessMessage": "確認リンクをあなたのメールアドレスに送信しました。メールの指示に従って認証を完了してください。",
+    "forgotPasswordSuccessMessage": "パスワードリセット用のリンクをあなたのメールアドレスに送信しました。メールの指示に従ってパスワードをリセットしてください。",
+    "link": {
+      "backToLogin": "ログインに戻る",
+      "backToProfile": "プロフィールに戻る"
+    }
+  },
+  "errorCard": {
+    "title": "無効なトークン",
+    "text": "トークンが無効であるか、有効期限が切れています。もう一度お試しください。",
+    "link": {
+      "backToLogin": "ログインに戻る",
+      "backToProfile": "プロフィールに戻る"
+    }
+  },
+  "modals": {
+    "sso": {
+      "accountNotFound": {
+        "title": "アカウントが見つかりません",
+        "text": "このメールアドレスに紐づくアカウントが見つかりません。新しいアカウントを作成しますか？",
+        "confirmButtonText": "新規作成",
+        "cancelButtonText": "キャンセル"
+      },
+      "userExist": {
+        "title": "アカウントは既に存在します",
+        "text": "このメールアドレスに紐づくアカウントが既に存在します。ログインしてください。",
+        "confirmButtonText": "ログインへ",
+        "cancelButtonText": "キャンセル"
+      },
+      "linkAccount": {
+        "title": "アカウントをリンク",
+        "text": "このメールアドレスは既存のアカウントに関連付けられています。SSOログインをリンクしますか？",
+        "confirmButtonText": "アカウントをリンク",
+        "cancelButtonText": "キャンセル"
+      }
+    }
+  },
+
+  "verifyPassword": {
+    "title": "パスワードの確認",
+    "text": "現在のパスワードを入力して本人確認を行い、続行してください。",
+    "link": {
+      "back": "プロフィールに戻る"
+    }
+  },
+  "accountVerification": {
+    "title": "アカウント確認",
+    "text": "登録済みのメールアドレスにパスワードリセットリンクを送信します。下のボタンをクリックして手続きを開始してください。",
+    "link": {
+      "back": "プロフィールに戻る"
+    }
+  },
+  "labels": {
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirmPassword": "パスワード（確認用）",
+    "currentPassword": "現在のパスワード",
+    "name": "名前",
+    "firstName": {
+      "english": "名（ローマ字）",
+      "kana": "名（カナ）",
+      "kanji": "名（漢字）"
+    },
+    "lastName": {
+      "english": "姓（ローマ字）",
+      "kana": "姓（カナ）",
+      "kanji": "姓（漢字）"
+    },
+    "nickName": "ニックネーム",
+    "webUrl": "ウェブサイトURL",
+    "dateOfBirth": "生年月日",
+    "address": "住所",
+    "country": "国",
+    "zipCode": "郵便番号",
+    "notes": "メモ",
+    "phone": "電話番号",
+    "hiraganaOrkatakana": "氏名（かな",
+    "kanji": "名前（漢字）",
+    "localityOrState": "都道府県",
+    "city": "市区町村",
+    "role": "役割",
+    "selectRole": "役割を選択",
+    "admin": "管理者",
+    "user": "ユーザー",
+    "of": "の",
+    "pages": "ページ",
+    "contactForm": {
+      "email": "メールアドレス"
+    },
+    "fileType": "ファイルタイプ",
+    "domain": "ドメイン",
+    "technology": "技術",
+    "clientName": "クライアント名",
+    "fileTypes": {
+      "rfp": "RFP",
+      "caseStudy": "ケーススタディ"
+    }
+  },
+  "buttons": {
+    "login": "ログイン",
+    "verify": "認証",
+    "resetPassword": "パスワードをリセット",
+    "register": "登録",
+    "save": "保存",
+    "saveChanges": "変更を保存",
+    "delete": "削除",
+    "addEmail": "メールを追加",
+    "addPhone": "電話を追加",
+    "add": "追加",
+    "send": "送信",
+    "block": "ブロック",
+    "unblock": "ブロック解除",
+    "cancel": "キャンセル",
+    "autoFill": "自動入力"
+  },
+  "placeholders": {
+    "search": "検索",
+    "selectTag": "タグを選択",
+    "selectCountry": "国を選択"
+  },
+  "defaultValue": {
+    "home": "自宅",
+    "work": "勤務先"
+  },
+  "errors": {
+    "app": {
+      "unexpected": "予期しないエラーが発生しました"
+    },
+    "email": {
+      "required": "メールアドレスは必須です",
+      "invalid": "無効なメール形式です",
+      "duplicateEmail": "このメールアドレスはすでに使用されています。",
+      "duplicateEmailInForm": "このメールアドレスが複数回入力されています。"
+    },
+    "password": {
+      "required": "パスワードは必須です",
+      "invalid": "パスワードは8文字以上で、少なくとも1つの小文字、1つの大文字、1つの数字、1つの記号を含める必要があります",
+      "minLength": "パスワードは最低8文字必要です",
+      "noWhitespace": "パスワードは先頭または末尾にスペースを含めてはいけません",
+      "mismatch": "パスワードが一致しません",
+      "sameAsCurrent": "新しいパスワードは現在のパスワードと同じにはできません",
+      "incorrect": "パスワードが正しくありません"
+    },
+    "confirmPassword": {
+      "required": "確認用パスワードは必須です",
+      "mismatch": "パスワードが一致しません"
+    },
+    "currentPassword": {
+      "required": "現在のパスワードは必須です",
+      "incorrect": "パスワードが正しくありません"
+    },
+    "name": {
+      "required": "名前は必須です",
+      "invalid": "有効な名前を入力してください"
+    },
+    "firstName": {
+      "required": "名は必須です",
+      "invalid": "名前はスペースを含まない1語で入力してください"
+    },
+    "webUrl": {
+      "invalid": "有効なURLを入力してください（例: https://example.com）"
+    },
+    "zipcode": {
+      "invalid": "5〜15文字の有効な郵便番号を入力してください",
+      "server": {
+        "invalid": "有効な郵便番号を入力してください"
+      }
+    },
+    "phone": {
+      "required": "電話番号は必須です",
+      "invalid": "有効な電話番号を入力してください",
+      "duplicatePhone": "この電話番号はすでに使用されています。",
+      "duplicatePhoneInForm": "この電話番号が複数回入力されています。"
+    },
+    "login": {
+      "credentialsInvalid": "無効な認証情報です。",
+      "loginFailed": "ログインに失敗しました。もう一度お試しください。"
+    },
+    "signUp": {
+      "userExist": "ユーザーは既に存在します。",
+      "name": "名前は必須です。",
+      "verificationFailed": "メール認証に失敗しました。もう一度お試しください。",
+      "signupFailed": "登録に失敗しました。もう一度お試しください。"
+    },
+    "forgotPassword": {
+      "emailNotFound": "メールアドレスが見つかりません。",
+      "emailSendFailed": "リセットメールの送信に失敗しました。もう一度お試しください。"
+    },
+
+    "contacts": {
+      "duplictePhone": "電話番号 {{phone}} は既に使用されています。",
+      "duplicateEmail": "メールアドレス {{email}} は既に使用されています。"
+    },
+    "fileUpload": {
+      "fileSizeExceeded": " は1MBのサイズ制限を超えています。",
+      "imageTooLarge": " は大きすぎます。最大サイズは1024×1024ピクセルです。",
+      "imageTooSmall": " は小さすぎます。最小サイズは250×250ピクセルです。"
+    },
+    "katakanaOrhiragana": {
+      "invalid": "ひらがなまたはカタカナで有効な名前を入力してください"
+    },
+    "kanji": {
+      "invalid": "漢字で有効な名前を入力してください"
+    },
+    "role": {
+      "required": "役割は必須です"
+    },
+    "file": {
+      "required": "ファイルは必須です",
+      "fileSizeExceeded": "ファイルサイズは5MBを超えてはいけません",
+      "invalidType": "無効なファイルタイプです。 .pptxファイルのみ許可されています"
+    },
+    "string": "アルファベットのみ使用可能"
+  },
+  "users": {
+    "table": {
+      "columnName": "名前",
+      "columnEmail": "メールアドレス",
+      "columnPhone": "電話番号",
+      "columnActions": "操作",
+      "emptyMessage": "ユーザーが見つかりません",
+      "columnRole": "役割",
+      "columStatus": "状態"
+    },
+    "status": {
+      "active": "アクティブ",
+      "inactive": "非アクティブ",
+      "blocked": "ブロック済み",
+      "delete": "削除済み"
+    },
+    "role": {
+      "admin": "管理者",
+      "user": "ユーザー",
+      "all": "すべて"
+    },
+    "addUser": {
+      "title": "ユーザー追加"
+    },
+    "editUser": {
+      "title": "ユーザー編集"
+    },
+    "deleteUser": {
+      "title": "ユーザー削除",
+      "text": "このユーザーを削除してもよろしいですか"
+    },
+    "blockUser": {
+      "title": "ユーザーをブロック",
+      "text": "このユーザーをブロックしてもよろしいですか"
+    },
+    "unblockUser": {
+      "title": "ユーザーのブロックを解除",
+      "text": "このユーザーのブロックを解除してもよろしいですか"
+    },
+    "changePassword": {
+      "title": "{{name}} のパスワードを変更",
+      "newPassword": "新しいパスワード",
+      "confirmPassword": "パスワードの確認",
+      "required": "両方のフィールドは必須です",
+      "mismatch": "パスワードが一致しません",
+      "weak": "パスワードが弱いです（8文字以上、数字と記号が必要）",
+      "medium": "中程度の強度のパスワード",
+      "strong": "強力なパスワード"
+    },
+    "inActive": "無効ユーザー",
+    "active": "有効ユーザー",
+    "all": "すべて"
+  },
+  "adminDashboard": {
+    "userCount": "ユーザー数",
+    "contactCount": "連絡先数",
+    "activeUserCount": "アクティブユーザー数"
+  }
+}

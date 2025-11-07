@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "9C3HASME22.com.innovaturelabs.chatbot",
+        "paths": [ "/forgot-password/*" ]
+      }
+    ]
+  }
+}

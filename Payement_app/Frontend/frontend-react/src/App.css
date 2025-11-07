@@ -1,0 +1,124 @@
+.link {
+  text-decoration: none;
+}
+.sessions-list {
+  /* max-height: 300px;  adjust depending on row height */ 
+  /* overflow-y: auto; */
+}
+
+.sessions-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.sessions-list::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+/* Hide scrollbar but keep scroll functionality */
+.hide-scrollbar::-webkit-scrollbar {                  
+  display: none;
+}
+
+/* Sidebar.css */
+.sessions-list .custom-nav-link {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.sessions-list .custom-nav-link span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chat-header {
+  background-color: #1a2b3bff;
+  color: #fff;
+  padding: 15px 20px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  width: 100%; /* aligns with sidebar width */
+}
+
+/* For smaller screens (sidebar hidden) */
+@media (max-width: 768px) {
+  .chat-header {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.chat-input-container {
+  position: fixed;
+  bottom: 50px; /* height of input area */
+  left: 240px; /* same as sidebar width */
+  width: calc(100% - 244px); /* fill remaining space next to sidebar */
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-left: 1px;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 1.4;
+  max-width: 100%;
+  box-sizing: border-box;
+
+  resize: none;        /* disable manual resize */
+  overflow-y: auto;    /* scroll if too many lines */
+  max-height: 160px;   /* ~8 lines depending on line-height */
+}
+
+/* optional: make send button fixed size */
+.chat-send-btn {
+  flex-shrink: 0;
+  margin-bottom: 1px;
+}
+
+/* Small screens: sidebar hidden → input full width */
+@media (max-width: 767px) {
+  .chat-input-container {
+    left: 0;
+    width: 100%;
+    bottom: 50px;
+  }
+}
+@media (width: 768px) {
+  .chat-input-container {
+    width: 69%;
+    margin-bottom: 2px;
+  }
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.sessions-container{
+  margin-top: 5%;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+@media(min-width:360px) and (max-width:375px) and (width:1280px){
+  .sessions-container{
+    max-height: 43vh;
+  }
+}
+@media (width:1280px){
+  .sessions-container{
+    max-height: 60vh;
+  }
+}

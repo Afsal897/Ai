@@ -1,0 +1,12 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+  "package_name": "com.innovaturelabs.contactsapp",
+        "sha256_cert_fingerprints": [
+          "0B:9A:14:50:22:16:01:47:6E:2E:89:EE:5B:0F:51:5C:49:26:65:63:75:CC:89:94:8E:73:A8:A4:7A:E1:76:29"
+        ]
+      }
+    }
+  ]

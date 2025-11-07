@@ -1,0 +1,31 @@
+.date-picker-wrapper {
+  display: block !important;
+}
+.react-datepicker-popper {
+  z-index: 1055 !important;
+}
+
+.react-datepicker__close-icon::after {
+  background-color: transparent;
+  color: rgb(124, 119, 119);
+  font-size: x-large;
+}
+
+/* Position the calendar icon */
+.custom-calendar-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: rgb(134, 138, 141);
+}
+
+/* Ensure parent allows absolute positioning */
+.date-picker-wrapper .react-datepicker__input-container {
+  position: relative;
+}
+
+.read-only-input {
+  pointer-events: none;
+  background-color: transparent;
+}
